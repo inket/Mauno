@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B22FD81115D8763400239877 /* status.png in Resources */ = {isa = PBXBuildFile; fileRef = B22FD80E15D8763400239877 /* status.png */; };
+		B22FD81215D8763400239877 /* status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22FD80F15D8763400239877 /* status@2x.png */; };
+		B22FD81415D876CD00239877 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B22FD81315D876CD00239877 /* icon.icns */; };
+		B23AF98C15D5EAEB00677E96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23AF98B15D5EAEB00677E96 /* Cocoa.framework */; };
+		B23AF99615D5EAEB00677E96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B23AF99415D5EAEB00677E96 /* InfoPlist.strings */; };
+		B23AF99815D5EAEB00677E96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF99715D5EAEB00677E96 /* main.m */; };
+		B23AF99F15D5EAEB00677E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF99E15D5EAEB00677E96 /* AppDelegate.m */; };
+		B23AF9A215D5EAEB00677E96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23AF9A015D5EAEB00677E96 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B22FD80E15D8763400239877 /* status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status.png; sourceTree = "<group>"; };
+		B22FD80F15D8763400239877 /* status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status@2x.png"; sourceTree = "<group>"; };
+		B22FD81315D876CD00239877 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		B23AF98715D5EAEB00677E96 /* Mauno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mauno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23AF98B15D5EAEB00677E96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B23AF98E15D5EAEB00677E96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B23AF98F15D5EAEB00677E96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B23AF99015D5EAEB00677E96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B23AF99315D5EAEB00677E96 /* Mauno-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mauno-Info.plist"; sourceTree = "<group>"; };
+		B23AF99515D5EAEB00677E96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B23AF99715D5EAEB00677E96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B23AF99915D5EAEB00677E96 /* Mauno-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mauno-Prefix.pch"; sourceTree = "<group>"; };
+		B23AF99D15D5EAEB00677E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B23AF99E15D5EAEB00677E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B23AF9A115D5EAEB00677E96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23AF98415D5EAEB00677E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23AF98C15D5EAEB00677E96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23AF97C15D5EAEB00677E96 = {
+			isa = PBXGroup;
+			children = (
+				B23AF99115D5EAEB00677E96 /* Mauno */,
+				B23AF98A15D5EAEB00677E96 /* Frameworks */,
+				B23AF98815D5EAEB00677E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23AF98815D5EAEB00677E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF98715D5EAEB00677E96 /* Mauno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23AF98A15D5EAEB00677E96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF98B15D5EAEB00677E96 /* Cocoa.framework */,
+				B23AF98D15D5EAEB00677E96 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23AF98D15D5EAEB00677E96 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF98E15D5EAEB00677E96 /* AppKit.framework */,
+				B23AF98F15D5EAEB00677E96 /* CoreData.framework */,
+				B23AF99015D5EAEB00677E96 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B23AF99115D5EAEB00677E96 /* Mauno */ = {
+			isa = PBXGroup;
+			children = (
+				B22FD81315D876CD00239877 /* icon.icns */,
+				B22FD80E15D8763400239877 /* status.png */,
+				B22FD80F15D8763400239877 /* status@2x.png */,
+				B23AF99D15D5EAEB00677E96 /* AppDelegate.h */,
+				B23AF99E15D5EAEB00677E96 /* AppDelegate.m */,
+				B23AF9A015D5EAEB00677E96 /* MainMenu.xib */,
+				B23AF99215D5EAEB00677E96 /* Supporting Files */,
+			);
+			path = Mauno;
+			sourceTree = "<group>";
+		};
+		B23AF99215D5EAEB00677E96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF99315D5EAEB00677E96 /* Mauno-Info.plist */,
+				B23AF99415D5EAEB00677E96 /* InfoPlist.strings */,
+				B23AF99715D5EAEB00677E96 /* main.m */,
+				B23AF99915D5EAEB00677E96 /* Mauno-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23AF98615D5EAEB00677E96 /* Mauno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23AF9A515D5EAEB00677E96 /* Build configuration list for PBXNativeTarget "Mauno" */;
+			buildPhases = (
+				B23AF98315D5EAEB00677E96 /* Sources */,
+				B23AF98415D5EAEB00677E96 /* Frameworks */,
+				B23AF98515D5EAEB00677E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mauno;
+			productName = Mauno;
+			productReference = B23AF98715D5EAEB00677E96 /* Mauno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23AF97E15D5EAEB00677E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = inket;
+			};
+			buildConfigurationList = B23AF98115D5EAEB00677E96 /* Build configuration list for PBXProject "Mauno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B23AF97C15D5EAEB00677E96;
+			productRefGroup = B23AF98815D5EAEB00677E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23AF98615D5EAEB00677E96 /* Mauno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23AF98515D5EAEB00677E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23AF99615D5EAEB00677E96 /* InfoPlist.strings in Resources */,
+				B23AF9A215D5EAEB00677E96 /* MainMenu.xib in Resources */,
+				B22FD81115D8763400239877 /* status.png in Resources */,
+				B22FD81215D8763400239877 /* status@2x.png in Resources */,
+				B22FD81415D876CD00239877 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23AF98315D5EAEB00677E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23AF99815D5EAEB00677E96 /* main.m in Sources */,
+				B23AF99F15D5EAEB00677E96 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B23AF99415D5EAEB00677E96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23AF99515D5EAEB00677E96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B23AF9A015D5EAEB00677E96 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23AF9A115D5EAEB00677E96 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23AF9A315D5EAEB00677E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B23AF9A415D5EAEB00677E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B23AF9A615D5EAEB00677E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mauno/Mauno-Prefix.pch";
+				INFOPLIST_FILE = "Mauno/Mauno-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B23AF9A715D5EAEB00677E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mauno/Mauno-Prefix.pch";
+				INFOPLIST_FILE = "Mauno/Mauno-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23AF98115D5EAEB00677E96 /* Build configuration list for PBXProject "Mauno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23AF9A315D5EAEB00677E96 /* Debug */,
+				B23AF9A415D5EAEB00677E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23AF9A515D5EAEB00677E96 /* Build configuration list for PBXNativeTarget "Mauno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23AF9A615D5EAEB00677E96 /* Debug */,
+				B23AF9A715D5EAEB00677E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23AF97E15D5EAEB00677E96 /* Project object */;
+}
