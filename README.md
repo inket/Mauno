@@ -1,7 +1,6 @@
 # Mauno
 
-<img src="screenshot1.png" width="300" />
-<img src="screenshot2.png" width="300" />
+<img src="screenshot1.png" width="300" /> <img src="screenshot2.png" width="300" />
 
 A tiny Mac menubar app that allows you to quickly switch audio from Stereo to Mono — really useful for those one-sided YouTube videos.
 
