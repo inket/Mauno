@@ -4,6 +4,7 @@
 //
 
 import AppKit
+import SFSafeSymbols
 
 extension NSImage {
     func tint(color: NSColor) -> NSImage {
@@ -61,9 +62,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var useMonoAudio: Bool = false {
         didSet {
             if useMonoAudio {
-                var singleSpeakerImage = NSImage(named: "hifispeaker.fill")
+                var singleSpeakerImage = NSImage(systemSymbol: .hifispeakerFill)
                 if displayRedIcon {
-                    singleSpeakerImage = singleSpeakerImage?.tint(
+                    singleSpeakerImage = singleSpeakerImage.tint(
                         color: NSColor(calibratedRed: 1, green: 0.3, blue: 0.3, alpha: 1)
                     )
                 }
@@ -72,7 +73,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 monoStatusMenuItem.title = "Playing in Mono"
                 switchMenuItem.title = "Switch to Stereo"
             } else {
-                statusItem.image = NSImage(named: "hifispeaker.2.fill")
+                statusItem.image = NSImage(systemSymbol: .hifispeaker2Fill)
                 monoStatusMenuItem.title = "Playing in Stereo"
                 switchMenuItem.title = "Switch to Mono"
             }

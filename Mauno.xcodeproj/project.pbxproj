@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		B24E2E1725CF944200C08D16 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B24E2E1625CF944200C08D16 /* AppIcon.icns */; };
 		B2C14DA32ACD183B0052C35D /* AudioSwitcherSonoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C14DA22ACD183B0052C35D /* AudioSwitcherSonoma.swift */; };
 		B2C14DA52ACD186C0052C35D /* AudioSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C14DA42ACD186C0052C35D /* AudioSwitcher.swift */; };
+		B2C14DA82ACD1C200052C35D /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = B2C14DA72ACD1C200052C35D /* SFSafeSymbols */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C14DA82ACD1C200052C35D /* SFSafeSymbols in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +125,9 @@
 			dependencies = (
 			);
 			name = Mauno;
+			packageProductDependencies = (
+				B2C14DA72ACD1C200052C35D /* SFSafeSymbols */,
+			);
 			productName = Mauno;
 			productReference = B23AF98715D5EAEB00677E96 /* Mauno.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +157,9 @@
 				Base,
 			);
 			mainGroup = B23AF97C15D5EAEB00677E96;
+			packageReferences = (
+				B2C14DA62ACD1C200052C35D /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+			);
 			productRefGroup = B23AF98815D5EAEB00677E96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -296,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -314,7 +322,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "Mauno/Mauno-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mahdi.Mauno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,7 +349,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "Mauno/Mauno-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mahdi.Mauno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2C14DA62ACD1C200052C35D /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2C14DA72ACD1C200052C35D /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2C14DA62ACD1C200052C35D /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B23AF97E15D5EAEB00677E96 /* Project object */;
 }
