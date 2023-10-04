@@ -18,7 +18,13 @@ extension NSImage {
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-    let audioSwitcher = AudioSwitcher()
+    let audioSwitcher: any AudioSwitcher = {
+        if #available(macOS 14, *) {
+            return AudioSwitcherSonoma()
+        } else {
+            return AudioSwitcherOld()
+        }
+    }()
 
     let statusItem = NSStatusBar.system.statusItem(withLength: 18)
     let monoStatusMenuItem = NSMenuItem(title: "", action: nil, keyEquivalent: "")

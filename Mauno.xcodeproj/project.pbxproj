@@ -11,8 +11,10 @@
 		B23AF9A215D5EAEB00677E96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23AF9A015D5EAEB00677E96 /* MainMenu.xib */; };
 		B24E2DED25CE39B000C08D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24E2DEC25CE39B000C08D16 /* AppDelegate.swift */; };
 		B24E2E0625CF841100C08D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24E2E0525CF841100C08D16 /* Assets.xcassets */; };
-		B24E2E0A25CF84FD00C08D16 /* AudioSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24E2E0925CF84FD00C08D16 /* AudioSwitcher.swift */; };
+		B24E2E0A25CF84FD00C08D16 /* AudioSwitcherOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24E2E0925CF84FD00C08D16 /* AudioSwitcherOld.swift */; };
 		B24E2E1725CF944200C08D16 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B24E2E1625CF944200C08D16 /* AppIcon.icns */; };
+		B2C14DA32ACD183B0052C35D /* AudioSwitcherSonoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C14DA22ACD183B0052C35D /* AudioSwitcherSonoma.swift */; };
+		B2C14DA52ACD186C0052C35D /* AudioSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C14DA42ACD186C0052C35D /* AudioSwitcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +28,11 @@
 		B24E2DEA25CE396F00C08D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B24E2DEC25CE39B000C08D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B24E2E0525CF841100C08D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B24E2E0925CF84FD00C08D16 /* AudioSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSwitcher.swift; sourceTree = "<group>"; };
+		B24E2E0925CF84FD00C08D16 /* AudioSwitcherOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSwitcherOld.swift; sourceTree = "<group>"; };
 		B24E2E1625CF944200C08D16 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		B275CEBA25CF981E00A9BA0B /* Mauno.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mauno.entitlements; sourceTree = "<group>"; };
+		B2C14DA22ACD183B0052C35D /* AudioSwitcherSonoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSwitcherSonoma.swift; sourceTree = "<group>"; };
+		B2C14DA42ACD186C0052C35D /* AudioSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSwitcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +87,9 @@
 			children = (
 				B275CEBA25CF981E00A9BA0B /* Mauno.entitlements */,
 				B24E2DEC25CE39B000C08D16 /* AppDelegate.swift */,
-				B24E2E0925CF84FD00C08D16 /* AudioSwitcher.swift */,
+				B2C14DA42ACD186C0052C35D /* AudioSwitcher.swift */,
+				B2C14DA22ACD183B0052C35D /* AudioSwitcherSonoma.swift */,
+				B24E2E0925CF84FD00C08D16 /* AudioSwitcherOld.swift */,
 				B23AF99215D5EAEB00677E96 /* Supporting Files */,
 			);
 			path = Mauno;
@@ -175,7 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B24E2DED25CE39B000C08D16 /* AppDelegate.swift in Sources */,
-				B24E2E0A25CF84FD00C08D16 /* AudioSwitcher.swift in Sources */,
+				B2C14DA32ACD183B0052C35D /* AudioSwitcherSonoma.swift in Sources */,
+				B24E2E0A25CF84FD00C08D16 /* AudioSwitcherOld.swift in Sources */,
+				B2C14DA52ACD186C0052C35D /* AudioSwitcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
