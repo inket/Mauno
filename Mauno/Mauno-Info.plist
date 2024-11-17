@@ -28,6 +28,8 @@
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>LSUIElement</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Mauno doesn't use Bluetooth, but to toggle Mono audio it uses system features that do. Feel free to choose "Don't Allow".</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright 2012-2021 Mahdi Bchatnia. GNU GPLv2.</string>
 	<key>NSMainNibFile</key>
