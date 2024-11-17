@@ -69,11 +69,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                     )
                 }
 
-                statusItem.image = singleSpeakerImage
+                statusItem.button?.image = singleSpeakerImage
                 monoStatusMenuItem.title = "Playing in Mono"
                 switchMenuItem.title = "Switch to Stereo"
             } else {
-                statusItem.image = NSImage(systemSymbol: .hifispeaker2Fill)
+                statusItem.button?.image = NSImage(systemSymbol: .hifispeaker2Fill)
                 monoStatusMenuItem.title = "Playing in Stereo"
                 switchMenuItem.title = "Switch to Mono"
             }
@@ -87,7 +87,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             "displayRedIcon": true
         ])
 
-        statusItem.toolTip = "Mauno"
+        statusItem.button?.toolTip = "Mauno"
 
         let menu = NSMenu(title: "Mauno")
         statusItem.menu = menu
@@ -132,7 +132,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                     color: NSColor(calibratedRed: 1, green: 0.3, blue: 0.3, alpha: 1)
                 )
             }
-            statusItem.image = singleSpeakerImage
+            statusItem.button?.image = singleSpeakerImage
         }
     }
 
